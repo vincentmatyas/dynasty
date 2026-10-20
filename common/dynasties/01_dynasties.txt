@@ -1,0 +1,25 @@
+﻿90000 = {
+    name = "dynn_Valmaering"
+    culture = "norse"
+}
+
+90001 = {
+    prefix = "dynnp_de"
+    name = "dynn_Coarraze"
+    culture = "french"
+}
+
+90006 = {
+    name = "dynn_Sardinus"
+    culture = "sardinian"
+}
+
+90002 = {
+    name = "dynn_Viennois"
+    culture = "occitan"
+}
+
+90003 = {
+    name = "dynn_Bernabe"
+    culture = "norman"
+}

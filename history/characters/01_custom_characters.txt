@@ -1,0 +1,2344 @@
+﻿# ==========================================
+# DYNASTY VALMÆRING (90000)
+# ==========================================
+# VALMÆRING LINE
+900001 = {
+	name = "Sif"
+	female = yes
+	religion = norse_pagan
+	culture = norse
+	815.1.1 = { birth = yes }
+	860.6.19 = { death = yes }
+}
+
+900002 = {
+	name = "Valmær"
+	dna = 900002_valmær
+	dynasty = 90000
+	religion = norse_pagan
+	culture = norse
+	martial = 20
+	diplomacy = 10
+	stewardship = 15
+	intrigue = 8
+	trait = ambitious
+	trait = diligent
+	trait = zealous
+	trait = viking
+	trait = education_martial_5
+
+	807.9.13 = { 
+		birth = yes 
+		give_nickname = nick_the_wolf 
+	}
+
+	833.6.6 = { 
+		add_spouse = 900001 
+	}
+
+	859.11.14 = { # Věk: 52
+		death = {
+			death_reason = death_battle 
+			killer = 163123
+		}
+	}
+}
+
+900003 = {
+	name = "Vargulf"
+	dna = 900003_vargulf
+	dynasty = 90000
+	father = 900002
+	mother = 900001
+	religion = norse_pagan
+	culture = norse
+	martial = 21
+	trait = zealous
+	trait = wrathful
+	trait = arrogant
+	trait = scarred
+	trait = winter_soldier
+	trait = berserker
+	trait = education_martial_4
+
+	844.9.13 = { birth = yes give_nickname = nick_the_heathen }
+	900.3.27 = { death = yes } # Věk: 56
+}
+
+900004 = {
+	name = "Kåre"
+	dna = 900004_kåre
+	dynasty = 90000
+	father = 900002
+	mother = 900001
+	religion = norse_pagan
+	culture = norse
+	martial = 12
+	trait = calm
+	trait = trusting
+	trait = stubborn
+	trait = albino
+	trait = education_martial_2
+
+	843.8.12 = { birth = yes }
+	865.6.22 = { death = { death_reason = death_battle } } # Věk: 21
+}
+
+900005 = {
+	name = "Guthrum"
+	dna = 900005_guthrum
+	dynasty = 90000
+	father = 900002
+	mother = 900001
+	religion = norse_pagan
+	culture = norse
+	diplomacy = 13
+	trait = gregarious
+	trait = honest
+	trait = craven
+	trait = education_diplomacy_5
+
+	831.6.1 = { birth = yes give_nickname = nick_the_fox }
+	881.2.14 = { death = yes } # Věk: 38
+}
+
+900006 = {
+	name = "Siegfried"
+	dna = 900006_siegfried
+	dynasty = 90000
+	father = 900002
+	mother = 900001
+	religion = norse_pagan
+	culture = norse
+	intrigue = 16
+	trait = ambitious
+	trait = cynical
+	trait = twin
+	trait = scarred
+	trait = education_martial_3
+
+	838.11.1 = { birth = yes give_nickname = nick_the_merciless }
+	881.4.2 = { death = { death_reason = death_battle } } # Věk: 42
+}
+
+900007 = {
+	name = "Eirikr"
+	dna = 900007_eirikr
+	dynasty = 90000
+	father = 900002
+	mother = 900001
+	religion = norse_pagan
+	culture = norse
+	martial = 14
+	stewardship = 15
+	trait = diligent
+	trait = patient
+	trait = twin
+	trait = education_martial_2
+
+	838.11.1 = { birth = yes }
+	881.4.2 = { death = { death_reason = death_battle } } # Věk: 42
+}
+
+900008 = {
+	name = "Ødger"
+	dna = 900008_Ødger
+	dynasty = 90000
+	father = 900002
+	mother = 900001
+	religion = norse_pagan
+	culture = norse
+	diplomacy = 11
+	trait = rakish
+	trait = generous
+	trait = just
+	trait = deceitful
+	trait = varangian
+	trait = education_stewardship_5
+
+	840.5.5 = { birth = yes }
+	865.6.7 = {
+		add_spouse = 306010
+	}
+	886.8.24 = { death = yes } # Věk: 46
+}
+
+900009 = {
+	name = "Sigvat"
+	dna = 900009_sigvat
+	dynasty = 90000
+	father = 900005
+	religion = norse_pagan
+	culture = norse
+	martial = 16
+	trait = calm
+	trait = brave
+	trait = education_martial_3
+	860.4.23 = { birth = yes }
+	886.8.8 = { death = { death_reason = death_battle } } # Věk: 26
+}
+
+900010 = {
+	name = "Vargheim"
+	dynasty = 90000
+	father = 900005
+	religion = norse_pagan
+	culture = norse
+	martial = 16
+	trait = brave
+	trait = ambitious
+	trait = impatient
+	trait = education_martial_3
+	864.4.23 = { birth = yes give_nickname = nick_the_fair }
+	910.12.15 = { death = yes } # Věk: 46
+}
+
+900013 = {
+	name = "Thyra"
+	female = yes
+	dynasty = 90000
+	religion = norse_pagan
+	culture = norse
+	father = 900003
+	trait = chaste
+	trait = generous
+	888.11.12 = { birth = yes }
+	931.4.5 = { death = yes } # Věk: 42
+}
+
+900017 = {
+	name = "Ívar"
+	dynasty = 90000
+	religion = norse_pagan
+	culture = norse
+	father = 900010
+	trait = arrogant
+	trait = education_diplomacy_2
+	893.11.8 = { birth = yes }
+	931.3.17 = { death = yes } # Věk: 37
+}
+
+900018 = {
+	name = "Végautr"
+	dna = 900018_végautr
+	dynasty = 90000
+	religion = norse_pagan
+	culture = norse
+	father = 900010
+	trait = temperate
+	trait = diligent
+	trait = education_stewardship_3
+	896.7.25 = { birth = yes }
+	952.1.8 = { death = yes } # Věk: 45
+}
+
+900019 = {
+	name = "Yrsa"
+	female = yes
+	dynasty = 90000
+	religion = norse_pagan
+	culture = norse
+	father = 900010
+	trait = trusting
+	902.9.3 = { birth = yes }
+	939.11.15 = { death = yes } # Věk: 37
+}
+
+900020 = {
+	name = "Einar"
+	dynasty = 90000
+	religion = catholic
+	culture = norse
+	father = 900018
+	trait = content
+	trait = education_stewardship_1
+	918.3.19 = { birth = yes }
+	980.9.2 = { death = yes } # Věk: 62
+}
+
+900021 = {
+	name = "Ruaidrí"
+	female = yes
+	dynasty = 90000
+	religion = catholic
+	culture = norse
+	father = 900018
+	trait = shy
+	921.10.10 = { birth = yes }
+	941.12.14 = { death = yes } # Věk: 20
+}
+
+900110 = {
+	name = "Dagr"
+	dynasty = 90000
+	religion = catholic
+	culture = norse
+	father = 900020
+	960.10.14 = { birth = yes }
+	1020.12.9 = { death = yes }
+}
+
+900111 = {
+	name = "Vigfús"
+	dynasty = 90000
+	religion = catholic
+	culture = norse
+	father = 900020
+	961.11.9 = { birth = yes }
+	1021.5.19 = { death = yes }
+}
+
+900112 = {
+	name = "Þórdís"
+	female = yes
+	dynasty = 90000
+	religion = catholic
+	culture = norse
+	father = 900020
+	969.7.2 = { birth = yes }
+	1035.9.19 = { death = yes }
+}
+
+900113 = {
+	name = "Hákon"
+	dynasty = 90000
+	religion = catholic
+	culture = norse
+	father = 900020
+	973.5.9 = { birth = yes }
+	1027.7.15 = { death = yes }
+}
+
+900114 = {
+	name = "Dagr"
+	dynasty = 90000
+	religion = catholic
+	culture = norse
+	father = 900110
+	986.5.1 = { birth = yes }
+	1027.6.15 = { death = yes }
+}
+
+900115 = {
+	name = "Einar"
+	dynasty = 90000
+	religion = catholic
+	culture = norse
+	father = 900111
+	984.11.16 = { birth = yes }
+	1035.5.4 = { death = yes }
+}
+
+900116 = {
+	name = "Bergþór"
+	dynasty = 90000
+	religion = catholic
+	culture = norse
+	father = 900111
+	985.2.23 = { birth = yes }
+	1040.7.3 = { death = yes }
+}
+
+900117 = {
+	name = "Björg"
+	female = yes
+	dynasty = 90000
+	religion = catholic
+	culture = norse
+	father = 900111
+	993.12.1 = { birth = yes }
+	1045.4.5 = { death = yes }
+}
+
+900118 = {
+	name = "Linda"
+	female = yes
+	dynasty = 90000
+	religion = catholic
+	culture = norse
+	father = 900111
+	996.5.20 = { birth = yes }
+	1047.1.13 = { death = yes }
+}
+
+
+# HOUSE MONTBELIARD
+900011 = {
+	name = "Humphrey"
+	dna = 900011_humphrey
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900003
+	trait = ambitious
+	trait = cynical
+	trait = organizer
+	trait = education_stewardship_4
+	868.2.14 = { birth = yes } 
+	888.7.14 = {
+		add_spouse = 6864
+	}
+	920.10.5 = { death = yes } # Věk: 52
+}
+
+900022 = {
+	name = "Roger"
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900011
+	mother = 6864
+	trait = arrogant
+	trait = deceitful
+	trait = education_intrigue_3
+	890.1.5 = { birth = yes }
+	921.6.20 = { death = yes } # Věk: 31
+}
+
+900023 = {
+	name = "Bohemond"
+	dna = 900023_bohemond
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900011
+	mother = 6864
+	trait = brave
+	trait = craven
+	trait = education_martial_2
+	892.6.10 = { birth = yes }
+	927.4.12 = { death = yes } # Věk: 34
+}
+
+900024 = {
+	name = "Gérard"
+	dna = 900024_gérard
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900011
+	mother = 6864
+	trait = lustful
+	trait = gregarious
+	trait = education_diplomacy_3
+	895.7.12 = { birth = yes }
+	933.11.8 = { death = yes } # Věk: 38
+}
+
+900025 = {
+	name = "Adémar"
+	dna = 900025_ademar
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900011
+	mother = 6864
+	trait = zealous
+	trait = chaste
+	trait = education_learning_3
+	898.4.23 = { birth = yes }
+	914.7.28 = { add_spouse = 900058 }
+	934.12.24 = {
+		death = {
+			death_reason = death_battle
+			killer = 900026
+		}
+	} # Věk: 36
+}
+
+900026 = {
+	name = "Maurice"
+	dna = 900026_maurice
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900011
+	mother = 6864
+	trait = ambitious
+	trait = stubborn
+	trait = conqueror
+	trait = athletic
+	trait = zealous
+	trait = education_martial_5
+	902.11.30 = { birth = yes give_nickname = nick_the_vanquisher }
+	921.6.23 = {
+		add_spouse = 900027
+	}
+	974.12.12 = { death = yes } # Věk: 71
+}
+
+900027 = {
+	name = "Adélaïde"
+	dna = 900027_adélaïde
+	dynasty = 723
+	female = yes
+	father = 1799
+	religion = catholic
+	culture = norman
+	trait = shy
+	trait = beautiful
+	trait = education_learning_5
+	905.3.15 = { birth = yes }
+	958.12.12 = { death = yes } # Věk: 53 
+}
+
+900028 = {
+	name = "Amaury"
+	dynasty = 90002
+	religion = catholic
+	culture = occitan
+	father = 900011
+	mother = 6864
+	trait = calm
+	trait = patient
+	trait = education_stewardship_4
+	905.6.14 = { birth = yes }
+	929.8.28 = {
+		add_spouse = 263012
+	}
+	951.10.4 = { death = yes } # Věk: 46
+}
+
+900029 = {
+	name = "Béatrice"
+	dna = 900029_béatrice
+	dynasty_house = house_montbeliard
+	religion = catholic
+	female = yes
+	culture = norman
+	father = 900011
+	mother = 6864
+	trait = compassionate
+	trait = devoted
+	trait = shy
+	trait = paranoid
+	trait = education_stewardship_3
+	912.7.30 = { birth = yes }
+	973.2.18 = { death = yes } # Věk: 60
+}
+
+900030 = {
+	name = "Elisabeth"
+	dna = 900030_elisabeth
+	female = yes
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900022
+	trait = fickle
+	909.3.21 = { birth = yes } # Při smrti otce (921) má 12 let
+	958.1.10 = { death = yes } # Věk: 48
+}
+
+900031 = {
+	name = "Agnes"
+	dna = 900031_agnes
+	female = yes
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900022
+	trait = shy
+	911.8.11 = { birth = yes } # Při smrti otce (921) má 10 let
+	931.5.18 = { add_spouse = 244 }
+	960.5.18 = { death = yes } # Věk: 48
+}
+
+900032 = {
+	name = "Baudouin"
+	dna = 900032_baudouin
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900024
+	trait = bastard
+	trait = wrathful
+	trait = education_martial_2
+	912.4.5 = { birth = yes }
+	950.9.11 = { death = { death_reason = death_battle } } # Věk: 38
+}
+
+900033 = {
+	name = "Dâlpheusse"
+    dna = 900033_dâlpheusse
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900026
+	mother = 900027
+	trait = deceitful
+	trait = impatient
+	trait = stubborn
+	trait = education_diplomacy_2
+	931.2.18 = { birth = yes }
+	964.10.12 = { death = yes } # Věk: 33
+}
+900034 = {
+	name = "Armand"
+    dna = 900034_armand
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900026
+	mother = 900027
+	trait = cynical
+	trait = patient
+	trait = ambitious
+	trait = brave
+	trait = varangian
+	trait = education_martial_4
+    diplomacy = 15
+	stewardship = 10
+	martial = 16
+	learning = 15
+	prowess = 20
+	943.2.18 = { birth = yes }
+	963.6.26 = { add_spouse = 900162}
+	979.4.11 = { add_spouse = 900130 }
+	1013.10.12 = { death = yes } # Věk: 70
+}
+
+900162 = {
+	name = "Rénâée"
+	female = yes
+	religion = catholic
+	culture = norman
+	trait = calm
+	trait = lustful
+	trait = education_stewardship_2
+	trait = beauty_good_2
+	trait = lisping
+	diplomacy = 12
+	stewardship = 21
+	martial = 8
+	learning = 14
+	949.7.12 = { birth = yes }
+	979.2.28 = { death = yes } # Věk: 31
+}
+
+900035 = {
+	name = "Bohemond"
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900026
+	mother = 900027
+	trait = brave
+	trait = zealous
+	trait = varangian
+	trait = education_martial_3
+	924.2.18 = { birth = yes }
+	951.10.12 = { death = { death_reason = death_wounds } } # Věk: 27
+}
+
+900036 = {
+	name = "Baudouin"
+	dna = 900036_baudouin
+	dynasty = 90002
+	religion = catholic
+	culture = occitan
+	father = 900028
+	mother = 263012
+	trait = ambitious
+	trait = greedy
+	trait = deceitful
+	trait = education_martial_4
+	933.8.22 = { birth = yes }
+	951.9.1 = { 
+		add_spouse = 900145
+	}
+	971.1.19 = { death = yes } # Věk: 37
+}
+
+900144 = {
+	name = "Nicholaus"
+	dynasty = 90002
+	religion = catholic
+	culture = occitan
+	father = 900036
+	mother = 900145
+	trait = stubborn
+	trait = trusting
+	trait = ambitious
+	trait = education_diplomacy_4
+	954.10.12 = { birth = yes }
+	1007.1.1 = { death = yes } # Věk: 52
+}
+
+900152 = {
+	name = "Guilhem"
+	dynasty = 90002
+	religion = catholic
+	culture = occitan
+	father = 900036
+	mother = 900145
+	trait = brave
+	trait = diligent
+	trait = education_martial_3
+	958.7.13 = { birth = yes }
+	1021.4.2 = { death = yes } # Věk: 62
+}
+
+900145 = {
+	name = "Alienora"
+	dynasty = 752
+	female = yes
+	religion = catholic
+	culture = norman
+	father = 244
+	mother = 900031
+	trait = compassionate
+	trait = diligent
+	trait = zealous
+	trait = devoted
+	trait = education_learning_3
+	trait = beauty_good_3
+	937.6.17 = { birth = yes }
+	981.3.17 = { death = yes }
+}
+
+900150 = {
+	name = "Ermengarda"
+	female = yes
+	dynasty = 90002
+	religion = catholic
+	culture = occitan
+	father = 900144
+	trait = compassionate
+	trait = gregarious
+	trait = education_diplomacy_2
+	980.2.14 = { birth = yes }
+	1042.7.10 = { death = yes } # Věk: 62
+}
+
+900151 = {
+	name = "Adelaida"
+	female = yes
+	dynasty = 90002
+	religion = catholic
+	culture = occitan
+	father = 900144
+	trait = patient
+	trait = honest
+	trait = education_learning_2
+	982.11.6 = { birth = yes }
+	1040.3.19 = { death = yes } # Věk: 57
+}
+
+900146 = {
+	name = "Bermond"
+	dynasty = 90002
+	religion = catholic
+	culture = occitan
+	father = 900144
+	trait = ambitious
+	trait = diligent
+	trait = education_diplomacy_3
+	trait = beauty_good_2
+	978.4.4 = { birth = yes }
+	995.5.25 = { 
+		add_spouse = 900148
+	}
+	1017.8.12 = { death = yes } # Věk: 39
+}
+
+900147 = {
+	name = "Clamenç"
+	dna = 900147_clamenc
+	dynasty = 90002
+	religion = catholic
+	culture = occitan
+	father = 900146
+	mother = 900148
+	trait = ambitious
+	trait = diligent
+	trait = sadistic
+	trait = education_martial_3
+	trait = shrewd
+	997.1.1 = { birth = yes }
+	1007.7.21 = {
+		add_spouse = 165024
+	}
+	1026.2.3 = {
+		add_spouse = 71243
+	}
+	1042.1.1 = { death = yes } # Věk: 45
+}
+
+900148 = {
+	name = "Lisebet"
+	dynasty = 724
+	religion = "catholic"
+	culture = "dutch"
+	female = yes
+
+	father = 361
+	trait = education_diplomacy_3
+	trait = gregarious
+	trait = calm
+	trait = zealous
+
+	diplomacy = 16
+	martial = 4
+	stewardship = 7
+	intrigue = 8
+	learning = 9
+	978.1.1 = { birth = yes give_nickname = nick_the_passionate}
+	1037.5.14 = { death = yes }
+}
+
+900149 = {
+	name = "Acfred"
+	dna = 900149_acfred
+	dynasty = 90002
+	religion = catholic
+	culture = occitan
+	father = 900147
+	trait = legitimized_bastard
+	trait = arrogant
+	trait = brave
+	trait = education_martial_5
+	diplomacy = 8
+	martial = 20
+	stewardship = 7
+	intrigue = 11
+	learning = 7
+	1018.1.1 = { birth = yes give_nickname = nick_the_honorable}
+	1065.8.20 = { death = yes } 
+}
+
+900153 = {
+	name = "Bernat"
+	dynasty = 90002
+	religion = catholic
+	culture = occitan
+	father = 900152
+	trait = ambitious
+	trait = brave
+	trait = education_martial_2
+	983.5.12 = { birth = yes }
+	1048.8.4 = { death = yes } # Věk: 65
+}
+
+900154 = {
+	name = "Raimonda"
+	female = yes
+	dynasty = 90002
+	religion = catholic
+	culture = occitan
+	father = 900152
+	trait = calm
+	trait = diligent
+	trait = education_stewardship_2
+	985.10.23 = { birth = yes }
+	1052.1.17 = { death = yes } # Věk: 66
+}
+
+900155 = {
+	name = "Almodis"
+	female = yes
+	dynasty = 90002
+	religion = catholic
+	culture = occitan
+	father = 900147
+	mother = 165024
+	trait = compassionate
+	trait = gregarious
+	trait = education_diplomacy_2
+	1014.4.18 = { birth = yes }
+	1080.6.11 = { death = yes } # Věk: 66
+}
+
+900156 = {
+	name = "Ermessenda"
+	female = yes
+	dynasty = 90002
+	religion = catholic
+	culture = occitan
+	father = 900147
+	mother = 71243
+	trait = patient
+	trait = ambitious
+	trait = education_diplomacy_3
+	1031.9.14 = { birth = yes }
+	1094.2.3 = { death = yes } # Věk: 62
+}
+
+900157 = {
+	name = "Guilhem"
+	dynasty = 90002
+	religion = catholic
+	culture = occitan
+	father = 900147
+	mother = 71243
+	trait = brave
+	trait = diligent
+	trait = education_martial_3
+	1036.3.27 = { birth = yes }
+	1098.11.5 = { death = yes } # Věk: 62
+}
+
+900097 = {
+	name = "Roger"
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900034
+	mother = 900162
+	martial = 20
+	diplomacy = 5
+	intrigue = 6
+	stewardship = 6
+	trait = cynical
+	trait = fickle
+	trait = ambitious
+	trait = education_martial_3
+	965.7.27 = { birth = yes }
+	998.7.17 = { add_spouse = 900163 }
+	1031.5.23 = { death = yes } # Věk: 66
+}
+
+900163 = {
+	name = "Migandi"
+	dynasty_house = house_knytling
+	female = yes
+	religion = catholic
+	culture = norse
+	father = 101502
+	mother = 101552
+	trait = lustful
+	trait = seducer
+	trait = sadistic
+	trait = zealous
+	trait = fecund
+	trait = Beauty_good_3
+	966.7.27 = { birth = yes }
+	1040.5.23 = { death = yes } # Věk: 74
+
+}
+
+900098 = {
+	name = "Avelina"
+	female = yes
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900034
+	mother = 900162
+	967.6.17 = { birth = yes }
+	987.3.17 = { death = yes }
+}
+
+900099 = {
+	name = "Dorothy"
+	female = yes
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900034
+	mother = 900162
+	976.8.1 = { birth = yes }
+	992.4.23 = {
+		add_spouse = 1718
+	}
+	1037.5.1 = { death = yes }
+}
+
+
+900100 = {
+	name = "Sibylla"
+	female = yes
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900034
+	mother = 900162
+	979.11.14 = { birth = yes }
+	994.9.17 = { add_spouse = 168538 }
+	1020.4.12 = { death = yes }
+}
+
+900101 = {
+	name = "Sophia"
+	female = yes
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900034
+	mother = 900130
+	987.7.7 = { birth = yes }
+	1001.6.18 = { add_spouse = 125018 }
+	1014.1.2 = { death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+900102 = {
+	name = "Adelise"
+	female = yes
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900034
+	trait = bastard
+	trait = content
+	trait = zealous
+	trait = compassionate
+	1012.10.31 = { birth = yes }
+	1054.3.17 = { death = yes } # Věk: 41
+}
+
+900103 = {
+	name = "Tancred"
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	trait = content
+	trait = zealous
+	trait = forgiving
+	trait = education_diplomacy_3
+	father = 900097
+	mother = 900163
+	1007.8.22 = { birth = yes }
+	1056.2.9 = { death = yes }
+}
+
+900104 = {
+	name = "Tybalt"
+	dynasty_house = house_montbeliard
+	religion = catholic
+	culture = norman
+	father = 900103
+	trait = stubborn
+	trait = greedy
+	trait = arbitrary
+	trait = education_learning_5
+	trait = shrewd
+	trait = theologian
+	trait = scholar
+	1037.1.16 = { birth = yes }
+	1084.8.21 = { death = yes }
+}
+
+900143 = {
+	name = "Meinhard"
+	dna = 900143_meinhard
+	dynasty = 90003
+	religion = catholic
+	culture = norman
+	father = 900034
+	martial = 15
+	diplomacy = 7
+	intrigue = 16
+	stewardship = 8
+	trait = brave
+	trait = humble
+	trait = shy
+	trait = bastard
+	trait = education_martial_3
+	985.12.13 = { birth = yes }
+	1006.4.17 = { add_spouse = 302000 }
+	1051.2.12 = { death = { death_reason = death_battle } }
+}
+
+900159 = {
+	name = "Vincent"
+	dynasty = 90003
+	religion = catholic
+	culture = norman
+	father = 900143
+	mother = 302000
+	1010.8.23 = { birth = yes }
+}
+
+900160 = {
+	name = "Victoère"
+	female = yes
+	dynasty = 90003
+	religion = catholic
+	culture = norman
+	father = 900143
+	mother = 302000
+	1016.2.11 = { birth = yes }
+}
+
+
+# HOUSE MERCIER
+900012 = {
+	name = "Ingólfr"
+	dna = 900012_ingólfr
+	dynasty_house = house_mercier
+	religion = norse_pagan
+	culture = norse
+	father = 900003
+	trait = stubborn
+	trait = wrathful
+	trait = education_martial_2
+	876.5.10 = { birth = yes }
+	924.11.2 = { death = yes } # Věk: 48
+}
+
+900014 = {
+	name = "Torstein"
+	dna = 900014_torstein
+	dynasty_house = house_mercier
+	religion = norse_pagan
+	culture = norse
+	father = 900012
+	trait = impatient
+	trait = cruel
+	trait = drunkard
+	trait = education_martial_1
+	898.3.15 = { birth = yes }
+	922.7.20 = {
+		death = {
+			death_reason = death_beheading
+		}
+	} # Věk: 24
+}
+
+900015 = {
+	name = "Egill"
+	dynasty_house = house_mercier
+	religion = catholic
+	culture = norse
+	father = 900012
+	trait = gluttonous
+	trait = gregarious
+	trait = lazy
+	trait = education_stewardship_5
+	902.9.1 = { birth = yes }
+	943.10.18 = { death = yes } # Věk: 41
+}
+
+900016 = {
+	name = "Eberhard"
+	dynasty_house = house_mercier
+	religion = catholic
+	culture = anglo_saxon
+	father = 900015
+	trait = ambitious
+	trait = deceitful
+	trait = greedy
+	trait = education_martial_5
+	926.6.29 = { birth = yes give_nickname = nick_the_bear }
+	989.1.15 = { death = yes } # Věk: 62
+}
+
+900105 = {
+	name = "Hereswith"
+	female = yes
+	dynasty_house = house_mercier
+	religion = catholic
+	culture = anglo_saxon
+	father = 900016
+	962.1.3 = { birth = yes }
+	1015.5.12 = { death = yes }
+}
+
+900106 = {
+	name = "Ceolflæd"
+	female = yes
+	dynasty_house = house_mercier
+	religion = catholic
+	culture = anglo_saxon
+	father = 900016
+	963.8.26 = { birth = yes }
+	1017.2.2 = { death = yes }
+}
+
+900107 = {
+	name = "Wiglaf"
+	dynasty_house = house_mercier
+	religion = catholic
+	culture = anglo_saxon
+	mother = 900105
+	trait = legitimized_bastard
+	989.1.26 = { birth = yes }
+	1039.7.9 = { death = yes }
+}
+
+900108 = {
+	name = "Ulfcytel"
+	dynasty_house = house_mercier
+	religion = catholic
+	culture = anglo_saxon
+	mother = 900105
+	trait = bastard
+	994.6.30 = { birth = yes }
+	1050.10.3 = { death = yes }
+}
+
+900109 = {
+	name = "Ealhflæd"
+	female = yes
+	dynasty_house = house_mercier
+	religion = catholic
+	culture = anglo_saxon
+	mother = 900105
+	trait = bastard
+	996.11.17 = { birth = yes }
+	1019.5.16 = { death = yes }
+}
+
+900164 = {
+    name = "Aethelflad"
+    dynasty_house = house_mercier
+    religion = catholic
+    culture = anglo_saxon
+    female = yes
+
+    father = 900107
+    trait = education_stewardship_3
+    trait = temperate
+    trait = honest
+    trait = patient
+
+    diplomacy = 8
+    martial = 5
+    stewardship = 14
+    intrigue = 7
+    learning = 10
+    1024.3.15 = { birth = yes }
+    1062.11.4 = { death = yes } # Věk: 38
+}
+# ==========================================
+# DYNASTY SARDINUS / MARGHENZU (90006)
+# ==========================================
+# MARGHENZU LINE
+900037 = {
+	name = "Migali"
+	dna = 900037_migali
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	trait = calm
+	trait = reckless
+	trait = education_martial_4
+	trait = scarred
+	trait = honest
+	trait = sadistic
+	679.3.11 = { birth = yes }
+	738.11.2 = { death = yes }
+}
+
+900038 = {
+	name = "Pascale"
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900037
+	trait = ambitious
+	707.5.19 = { birth = yes }
+	762.1.28 = { death = yes }
+}
+
+900039 = {
+	name = "Gosantìnu"
+	dynasty = 90006
+	religion = catholic
+	culture = sardinian
+	father = 900037
+	trait = honest
+	710.9.14 = { birth = yes }
+	768.4.12 = { death = yes }
+}
+
+900040 = {
+	name = "Ànghela"
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900037
+	714.2.22 = { birth = yes }
+	770.8.19 = { death = yes }
+}
+
+900041 = {
+	name = "Vissente"
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900038
+	trait = just
+	735.6.10 = { birth = yes }
+	791.12.3 = { death = yes }
+}
+
+900042 = {
+	name = "Gonàriu"
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900038
+	trait = brave
+	738.10.1 = { birth = yes }
+	784.3.15 = { death = { death_reason = death_battle } }
+}
+
+900043 = {
+	name = "Orzocor"
+	dynasty = 90006
+	religion = catholic
+	culture = sardinian
+	father = 900039
+	trait = patient
+	740.1.5 = { birth = yes }
+	798.5.20 = { death = yes }
+}
+
+900044 = {
+	name = "Giorgia"
+	female = yes
+	dynasty = 90006
+	religion = catholic
+	culture = sardinian
+	father = 900039
+	743.7.12 = { birth = yes }
+	802.11.1 = { death = yes }
+}
+
+900045 = {
+	name = "Alaverru"
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900041
+	trait = diligent
+	765.4.18 = { birth = yes }
+	821.9.27 = { death = yes }
+}
+
+900046 = {
+	name = "Salùsiu"
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900042
+	trait = shy
+	768.11.12 = { birth = yes }
+	813.2.14 = { death = yes }
+}
+
+900047 = {
+	name = "Gialetu"
+	dynasty = 90006
+	religion = catholic
+	culture = sardinian
+	father = 900043
+	trait = stubborn
+	771.1.25 = { birth = yes }
+	829.6.3 = { death = yes }
+}
+
+900048 = {
+	name = "Adriànu"
+	dna = 900048_adrianu
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900045
+	trait = calm
+	trait = generous
+	trait = education_learning_5
+	trait = contrite
+	798.8.14 = { birth = yes give_nickname = nick_the_peacemaker }
+	865.10.22 = { death = yes }
+}
+
+900049 = {
+	name = "Pretiosa"
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900045
+	801.12.5 = { birth = yes }
+	859.4.11 = { death = yes }
+}
+
+900050 = {
+	name = "Jerone"
+	dna = 900050_jerone
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900048
+	martial = 18
+	learning = 15
+	intrigue = 12
+	diplomacy = 14
+	trait = ambitious
+	trait = temperate
+	trait = callous
+	trait = education_intrigue_4
+	844.10.22 = { birth = yes }
+	890.5.14 = { death = yes }
+}
+
+900051 = {
+	name = "Agnesa"
+	dna = 900051_agnesa
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900048
+	847.2.18 = { birth = yes }
+	888.11.29 = { death = yes }
+}
+
+900052 = {
+	name = "Benedetta"
+	dna = 900052_benedetta
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900048
+	851.7.5 = { birth = yes }
+	889.12.12 = { death = yes }
+}
+
+900053 = {
+	name = "Leonardu"
+	dna = 900053_leonardu
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900050
+	868.1.1 = { birth = yes }
+	887.8.1 = { add_spouse = 900054 }
+	925.8.15 = { death = yes }
+}
+
+900054 = {
+	name = "Anthousa"
+	female = yes
+	dynasty = 101138
+	father = 145205
+	religion = orthodox
+	culture = greek
+	trait = lustful
+	trait = gregarious
+	trait = education_learning_4
+	870.5.10 = { birth = yes }
+	930.3.15 = { death = yes }
+}
+
+900055 = {
+	name = "Natalia"
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900050
+	871.3.10 = { birth = yes }
+	920.5.12 = { death = yes }
+}
+
+900056 = {
+	name = "Nimilde"
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900050
+	873.8.22 = { birth = yes }
+	918.11.4 = { death = yes }
+}
+
+900057 = {
+	name = "Mikelli"
+	dna = 900057_mikelli
+	dynasty = 90006
+	religion = catholic
+	culture = sardinian
+	father = 900050
+	trait = diligent
+	trait = stubborn
+	trait = confider
+	trait = education_diplomacy_4
+	trait = just
+	876.2.14 = { birth = yes give_nickname = nick_the_just }
+	886.8.30 = { add_spouse = occitan0132 }
+	932.9.30 = { death = yes }
+}
+
+900058 = {
+	name = "Eufémia"
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900053
+	mother = 900054
+	892.4.18 = { birth = yes }
+	945.7.19 = { death = yes }
+}
+
+900059 = {
+	name = "Nicolau"
+	dna = 900059_nicolau
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900053
+	mother = 900054
+	trait = callous
+	trait = ambitious
+	trait = arbitrary
+	trait = education_intrigue_5
+	trait = administrator
+	895.6.11 = { birth = yes }
+	970.9.9 = { death = yes } # Age: 75
+}
+
+900060 = {
+	name = "Leonardu"
+	dna = 900060_leonardu
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900053
+	mother = 900054
+	trait = arrogant
+	trait = sadistic
+	trait = education_martial_5
+	898.1.25 = { birth = yes }
+	969.9.21 = { death = { death_reason = death_battle } }
+}
+
+900061 = {
+	name = "Tocode"
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900053
+	mother = 900054
+	trait = curious
+	trait = journalled
+	901.9.8 = { birth = yes }
+	908.12.1 = { death = yes }
+}
+
+900062 = {
+	name = "Mikelli"
+	dynasty = 90006
+	religion = catholic
+	culture = sardinian
+	father = 900057
+	mother = occitan0132
+	trait = ambitious
+	trait = just
+	trait = reckless
+	trait = education_martial_3
+	898.3.14 = { birth = yes }
+	955.8.20 = { death = { death_reason = death_battle } }
+}
+
+900063 = {
+	name = "Carule"
+	dynasty = 90006
+	religion = catholic
+	culture = sardinian
+	father = 900057
+	mother = occitan0132
+	900.7.22 = { birth = yes }
+	948.11.11 = { death = yes }
+}
+
+900064 = {
+	name = "Sèrgiu"
+	dna = 900064_sèrgiu
+	dynasty = 90006
+	religion = catholic
+	culture = sardinian
+	trait = zealous
+	trait = diligent
+	trait = education_learning_4
+	trait = just
+	trait = confider
+	father = 900057
+	mother = occitan0132
+	903.11.5 = { birth = yes }
+	991.5.22 = { death = yes } # Věk: 87
+}
+
+900066 = {
+	name = "Marianna"
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900059
+	928.2.10 = { birth = yes }
+	933.5.5 = { add_spouse = 1306 }
+	989.3.4 = { death = yes }
+}
+
+900068 = {
+	name = "Beatrice"
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	trait = bastard
+	father = 900059
+	932.11.3 = { birth = yes }
+	1000.7.9 = { death = yes }
+}
+
+900070 = {
+	name = "Beneitu"
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900059
+	941.6.25 = { birth = yes }
+	1020.12.11 = { death = yes }
+}
+
+900071 = {
+	name = "Migheli"
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900060
+	935.3.8 = { birth = yes }
+	990.11.8 = { death = yes }
+}
+
+900072 = {
+	name = "Adelàide"
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900060
+	938.9.17 = { birth = yes }
+	1020.11.15 = { death = yes }
+}
+
+900119 = {
+	name = "Elianora"
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900070
+	969.12.2 = { birth = yes }
+	1028.7.11 = { death = yes }
+}
+
+900120 = {
+	name = "Beneitu"
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900070
+	974.8.9 = { birth = yes }
+	1026.2.24 = { death = yes } # Věk: 52
+}
+
+900121 = {
+	name = "Pasca"
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900070
+	979.1.16 = { birth = yes }
+	982.4.21 = { death = yes }
+}
+
+900122 = {
+	name = "Constantinu"
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900071
+	960.1.1 = { birth = yes }
+	989.6.25 = {
+		add_spouse = 900119
+	}
+	1025.9.11 = { death = yes }
+}
+
+900123 = {
+	name = "Elianora"
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900122
+	mother = 900119
+	1001.6.20 = { birth = yes }
+	1050.11.15 = { death = yes } # Věk: 49
+}
+
+900124 = {
+	name = "Migheli"
+	dna = 900124_migheli
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900122
+	mother = 900119
+	1010.9.3 = { birth = yes give_nickname = nick_the_usurper }
+	1030.8.21 = {
+		add_spouse = 900141
+	}
+	1067.1.18 = { death = yes } # Věk: 57
+}
+
+900125 = {
+	name = "Frantzisca"
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900122
+	mother = 900119
+	1016.7.5 = { birth = yes }
+	1059.12.27 = { death = yes } # Věk: 43
+}
+
+900126 = {
+	name = "Susanna"
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900124
+	mother = 900141
+	1032.4.12 = { birth = yes }
+	1086.9.30 = { death = yes } # Věk: 54
+}
+
+900127 = {
+	name = "Elianora"
+	female = yes
+	dynasty = 90006
+	religion = orthodox
+	culture = sardinian
+	father = 900124
+	mother = 900141
+	1037.1.5 = { birth = yes }
+	1083.6.2 = { death = yes } # Věk: 46
+}
+
+
+# HOUSE DE SARDEGNA
+900069 = {
+	name = "Zuseppe"
+	dna = 900069_zuseppe
+	dynasty_house = house_sardegna
+	religion = orthodox
+	culture = sardinian
+	father = 900059
+	trait = education_intrigue_5
+	trait = sadistic
+	trait = callous
+	trait = arrogant
+	trait = fecund
+	938.1.12 = { birth = yes }
+	958.8.31 = { add_spouse = basque0065 }
+	974.8.2 = { add_spouse = 900161 }
+	1030.7.10 = { death = yes } # Věk: 92
+}
+
+900161 = {
+	name = "Amelia"
+	female = yes
+	religion = orthodox
+	culture = sardinian
+	trait = education_stewardship_4
+	trait = contrite
+	trait = paranoid
+	trait = zelous
+	trait = architect
+	trait = ambitious
+	960.1.5 = { birth = yes }
+	1047.6.2 = { death = yes } # Věk: 46
+}
+
+
+900128 = {
+	name = "Ćorradu"
+	dna = 900128_corradu
+	dynasty_house = house_sardegna
+	religion = orthodox
+	culture = sardinian
+	father = 900069
+	mother = basque0065
+	trait = education_stewardship_4
+	trait = deceitful
+	trait = chaste
+	trait = arrogant
+	trait = irritable
+	961.6.8 = { birth = yes }
+	990.6.2 = { add_spouse = 54000 }
+	1033.7.13 = { death = yes }
+}
+
+900130 = {
+	name = "Elena"
+	female = yes
+	dynasty_house = house_sardegna
+	religion = orthodox
+	culture = sardinian
+	father = 900069
+	mother = basque0065
+	trait = education_learning_4
+	trait = temperate
+	trait = shy
+	trait = chaste
+	963.6.13 = { birth = yes }
+	1026.12.26 = { death = yes }
+}
+
+900131 = {
+	name = "Amalia"
+	female = yes
+	dynasty_house = house_sardegna
+	religion = orthodox
+	culture = sardinian
+	father = 900069
+	mother = 900161
+	977.8.7 = { birth = yes }
+	1003.11.10 = { death = yes }
+}
+
+900135 = {
+	name = "Izocor"
+	dynasty_house = house_sardegna
+	religion = orthodox
+	culture = sardinian
+	father = 900069
+	mother = 900161
+	990.1.18 = { birth = yes }
+	1005.10.28 = { death = yes }
+}
+
+900136 = {
+	name = "Nivatora"
+	female = yes
+	dynasty_house = house_sardegna
+	religion = orthodox
+	culture = sardinian
+	father = 900128
+	mother = 54000
+	991.6.2 = { birth = yes }
+	1031.2.1 = { death = yes }
+}
+
+900137 = {
+	name = "Gartzia"
+	dynasty_house = house_sardegna
+	religion = orthodox
+	culture = sardinian
+	father = 900069
+	mother = 900161
+	992.8.31 = { birth = yes }
+	993.11.15 = { death = yes }
+}
+
+900139 = {
+	name = "Clemente"
+	dna = 900139_clemente
+	dynasty_house = house_sardegna
+	religion = catholic
+	culture = sardinian
+	father = 900128
+	mother = 54000
+	trait = education_martial_5
+	trait = zealous
+	trait = calm
+	trait = vengeful
+	trait = torturer
+	trait = aggressive_attacker
+	1001.10.2 = { birth = yes give_nickname = nick_the_great}
+	1054.4.18 = { death = yes } # Věk: 53
+}
+
+900140 = {
+	name = "Valeria"
+	female = yes
+	dynasty_house = house_sardegna
+	religion = orthodox
+	culture = sardinian
+	father = 900128
+	mother = 54000
+	1010.2.19 = { birth = yes }
+	1056.11.11 = { death = yes } # Věk: 46
+}
+
+900141 = {
+	name = "Susanna"
+	female = yes
+	dynasty_house = house_sardegna
+	religion = orthodox
+	culture = sardinian
+	father = 900128
+	mother = 54000
+	1014.4.30 = { birth = yes }
+	1073.8.22 = { death = yes } # Věk: 59
+}
+
+900142 = {
+	name = "Subia"
+	female = yes
+	dynasty_house = house_sardegna
+	religion = catholic
+	culture = sardinian
+	father = 900139
+	trait = bastard
+	1035.11.3 = { birth = yes }
+	1077.7.15 = { death = yes } # Věk: 42
+}
+
+
+# ==========================================
+# DYNASTY COARRAZE (90001)
+# ==========================================
+# COARRAZE LINE
+900073 = {
+	name = "Louis"
+	dna = 900073_louis
+	dynasty = 90001
+	religion = catholic
+	culture = french
+
+	trait = ambitious
+	trait = diligent
+	trait = education_stewardship_3
+
+	767.8.16 = { birth = yes }
+	828.2.20 = { death = yes }
+}
+
+900074 = {
+	name = "Marçau"
+	dna = 900074_marcau
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	father = 900073
+
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_5
+
+	800.3.14 = { birth = yes }
+	860.11.28 = { death = yes }
+}
+
+900075 = {
+	name = "Richenda"
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	female = yes
+	father = 900073
+
+	trait = chaste
+	trait = humble
+	trait = devoted
+	trait = celibate
+	trait = education_learning_3
+
+	802.7.09 = { birth = yes }
+	855.04.18 = { death = yes }
+}
+
+900076 = {
+	name = "Berenguié"
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	trait = bastard
+	trait = pilgrim
+	trait = humble
+	father = 900073
+
+	trait = brave
+	trait = content
+	trait = education_stewardship_1
+
+	789.12.01 = { birth = yes }
+	862.08.22 = { death = yes }
+}
+
+900077 = {
+	name = "Enric"
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	father = 900074
+
+	trait = trusting
+	trait = paranoid
+	trait = education_stewardship_1
+	trait = bastard
+
+	835.5.28 = { birth = yes }
+	870.2.2 = {
+		death = {
+			death_reason = death_mysterious
+		}
+	}
+}
+
+900078 = {
+	name = "Bertrand"
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	father = 900074
+
+	trait = gregarious
+	trait = honest
+	trait = education_diplomacy_3
+	trait = disinherited
+
+	838.09.11 = { birth = yes }
+	890.03.30 = { death = yes }
+}
+
+900079 = {
+	name = "Jaufret"
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	father = 900074
+
+	trait = cruel
+	trait = sadistic
+	trait = kinslayer_1
+	trait = arrogant
+	trait = wrathful
+	trait = education_intrigue_5
+
+	840.01.25 = { birth = yes give_nickname = nick_the_cruel }
+	895.10.14 = { death = yes }
+}
+
+900080 = {
+	name = "Aimeric"
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	father = 900074
+
+	trait = gregarious
+	trait = compassionate
+	trait = zealous
+	trait = beauty_good_2
+	trait = education_diplomacy_5
+
+	845.01.01 = { birth = yes give_nickname = nick_the_elegant }
+	870.7.9 = {
+		death = {
+			death_reason = death_execution
+			killer = 900072
+		}
+	}
+}
+
+900081 = {
+	name = "Bérenger"
+	dna = 900081_berenger
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	father = 900079
+
+	trait = cruel
+	trait = wrathful
+	trait = callous
+	trait = education_martial_3
+
+	865.06.04 = { birth = yes give_nickname = nick_the_terrible }
+	920.02.17 = { death = yes }
+}
+
+900082 = {
+	name = "Marçau"
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	father = 900079
+
+	trait = deceitful
+	trait = ambitious
+	trait = hunter_3
+	trait = education_intrigue_2
+
+	868.10.19 = { birth = yes give_nickname = nick_the_wolf }
+	925.08.05 = { death = yes }
+}
+
+900083 = {
+	name = "Julienne"
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	female = yes
+	father = 900081
+
+	trait = stubborn
+	trait = chaste
+	trait = education_stewardship_2
+
+	890.04.12 = { birth = yes }
+	945.12.03 = { death = yes }
+}
+
+900084 = {
+	name = "Jaufret"
+	dna = 900084_jaufret
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	father = 900081
+
+	trait = ambitious
+	trait = brave
+	trait = education_diplomacy_2
+
+	892.08.27 = { birth = yes }
+	950.05.19 = { death = yes }
+}
+
+900085 = {
+	name = "Marguerite"
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	female = yes
+	father = 900082
+	trait = bastard
+	trait = generous
+	trait = gregarious
+	trait = education_diplomacy_2
+
+	893.05.30 = { birth = yes }
+	948.01.11 = { death = yes }
+}
+
+900086 = {
+	name = "Marçau"
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	father = 900082
+	trait = bastard
+	trait = temperate
+	trait = diligent
+	trait = education_stewardship_2
+
+	895.09.03 = { birth = yes }
+	952.06.24 = { death = yes }
+}
+
+900087 = {
+	name = "Almodis"
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	female = yes
+	father = 900082
+	trait = bastard
+	trait = fickle
+	trait = gluttonous
+
+	897.03.17 = { birth = yes }
+	950.10.29 = { death = yes }
+}
+
+900088 = {
+	name = "Ildégarde"
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	female = yes
+	father = 900082
+	trait = bastard
+	trait = content
+	trait = calm
+
+	900.07.22 = { birth = yes }
+	958.04.02 = { death = yes }
+}
+
+900089 = {
+	name = "Jacques"
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	father = 900082
+
+	trait = honest
+	trait = trusting
+	trait = education_learning_2
+
+	903.12.14 = { birth = yes }
+	960.08.09 = { death = yes }
+}
+
+900090 = {
+	name = "Raymond"
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	father = 900089
+
+	trait = zealous
+	trait = fickle
+	trait = shrewd
+	trait = athletic
+	trait = legitimized_bastard
+	trait = education_learning_5
+
+	939.03.02 = { birth = yes }
+	970.11.18 = { death = yes }
+}
+
+900091 = {
+	name = "Ildégarde"
+	dynasty = 90001
+	religion = catholic
+	culture = french
+	female = yes
+	mother = 900083
+
+	trait = patient
+	trait = intellect_good_1
+
+	915.06.18 = { birth = yes }
+	970.02.26 = { death = yes }
+}
+
+
+# ==========================================
+# DYNASTY ETICHONEN (664)
+# ==========================================
+# HOUSE CISIO
+# 1. GENERACE
+900092 = {
+	name = "Garibald"
+	dna = 900092_garibald
+	dynasty_house = house_cisio
+	martial = 12
+	diplomacy = 15
+	intrigue = 11
+	stewardship = 14
+	religion = catholic
+	culture = swabian
+	trait = diligent
+	trait = education_diplomacy_3
+	trait = ambitious
+	
+	father = 163095
+	886.4.12 = {
+		birth = yes
+	}
+	908.4.21 = {
+		add_spouse = 900093
+	}
+	948.11.3 = {
+		death = yes
+	} # Věk: 62
+}
+
+900093 = {
+	name = "Gisela"
+	dna = 900093_gisela
+	female = yes
+	martial = 6
+	diplomacy = 11
+	intrigue = 9
+	stewardship = 12
+	religion = catholic
+	culture = swabian
+	trait = humble
+	trait = calm
+	
+	892.8.19 = {
+		birth = yes
+	}
+	953.5.14 = {
+		death = yes
+	} # Věk: 60
+}
+
+# 2. GENERACE
+900094 = {
+	name = "Hugo"
+	dna = 900094_hugo
+	dynasty_house = house_cisio
+	martial = 13
+	diplomacy = 10
+	intrigue = 8
+	stewardship = 11
+	religion = catholic
+	culture = swabian
+	trait = brave
+	trait = education_martial_2
+	
+	father = 900092
+	mother = 900093
+	912.2.10 = {
+		birth = yes
+	}
+	968.9.22 = {
+		death = yes
+	} # Věk: 56
+}
+
+900095 = {
+	name = "Adelheid"
+	female = yes
+	dynasty_house = house_cisio
+	martial = 7
+	diplomacy = 14
+	intrigue = 10
+	stewardship = 9
+	religion = catholic
+	culture = swabian
+	trait = gregarious
+	father = 900092
+	mother = 900093
+	914.6.25 = {
+		birth = yes
+	}
+	971.1.18 = {
+		death = yes
+	} # Věk: 56
+}
+
+
+# HOUSE MEMMINGEN
+900096 = {
+	name = "Ulrich"
+	dna = 900096_ulrich
+	dynasty_house = house_memmingen
+	martial = 10
+	diplomacy = 7
+	intrigue = 14
+	stewardship = 9
+	religion = catholic
+	culture = swabian
+	trait = bastard
+	trait = deceitful
+	father = 900092
+	910.5.18 = {
+		birth = yes
+	}
+	985.7.12 = {
+		death = { death_reason = death_battle }
+	} # Věk: 62
+}
