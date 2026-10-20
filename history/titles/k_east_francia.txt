@@ -3383,6 +3383,9 @@ d_swabia = {
 	1030.9.17 = {
 		holder = 10085
 	}
+	1037.1.1 = {
+		holder = 7053
+	}
 	1045.1.1 = {
 		holder = 20206
 	}
@@ -3477,6 +3480,9 @@ c_ulm = {
 	876.8.28 = {
 		liege = k_east_francia
 	}
+	1037.1.1 = {
+		holder = 7053
+	}
 	1066.1.1 = {
 		liege = "d_swabia"
 	}
@@ -3568,6 +3574,9 @@ c_grunningen = {
 	1028.1.1 = {
 		holder = 7053
 	}
+	1037.1.1 = {
+		holder = 7053
+	}
 	1054.1.7 = {
 		holder = 7054 #Friedrich I von Hohenstaufen
 	}
@@ -3641,6 +3650,9 @@ c_wurttemberg = {
 	876.8.28 = {
 		liege = k_east_francia
 	}
+	1037.1.1 = {
+		holder = 7053
+	}
 	1066.1.1 = {
 		liege = "d_swabia"
 	}
@@ -3691,6 +3703,9 @@ c_baden = {
 	843.1.1 = {
 		liege = "k_east_francia"
 		holder = 90107
+	}
+	1037.1.1 = {
+		holder = 7053
 	}
 	1066.1.1 = {
 		liege = "d_swabia"
@@ -3752,6 +3767,9 @@ c_zollern = {
 	876.8.28 = {
 		liege = k_east_francia
 	}
+	1037.1.1 = {
+		holder = 7053
+	}
 	1050.1.1 = {
 		holder = 40550 # Burchard I - Count of Zollern and first documented ruler from Hohenzollern
 		liege = "d_swabia"
@@ -3802,6 +3820,9 @@ c_hohenberg = {
 	876.8.28 = {
 		liege = k_east_francia
 		holder = 7991
+	}
+	1037.1.1 = {
+		holder = 7053
 	}
 	1066.1.1 = {
 		liege = d_swabia
@@ -3886,6 +3907,9 @@ c_furstenberg = {
 	876.8.28 = {
 		liege = k_east_francia
 		holder = 7991
+	}
+	1037.1.1 = {
+		holder = 7053
 	}
 	1066.1.1 = {
 		liege = d_swabia

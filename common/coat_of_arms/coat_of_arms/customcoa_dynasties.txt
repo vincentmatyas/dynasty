@@ -61,7 +61,18 @@
 	color3=green
 }
 
-
+90004={
+	pattern="ps_pattern_lozengy.dds"
+	color1=yellow
+	color2=red
+	colored_emblem={
+		color1=red
+		texture="ps_ord_pale.dds"
+		instance={
+			scale={ 0.750000 1.000000 }
+		}
+	}
+}
 
 house_montbeliard={
 	pattern="pattern_solid.dds"
@@ -178,4 +189,3 @@ house_sardegna={
 	}
 
 }
-

@@ -228,21 +228,17 @@ c_bordeaux = {
 		#William the Good of Bordeaux (977-988)
 		liege = 0
 	}
+	981.3.2 = {
+		holder = 900090 # Raymond receives Bordeaux for aiding the king against rebellious vassals
+	}
 	988.1.1 = {
-		holder = 127049 # Duke Guillaume II of Gascogne (restored)
 		liege = d_gascogne
 	}
-	996.12.23 = {
-		holder = 127050 # Duke Bernard-Guillaume of Gascogne
+	1005.7.10 = {
+		holder = 900165 # Hugues inherits from Raymond
 	}
-	1009.12.25 = {
-		holder = 127051 # Duke Sanche VI of Gascogne
-	}
-	1032.10.4 = {
-		holder = 228
-	}
-	1039.3.10 = {
-		holder = 238
+	1025.4.7 = {
+		holder = 900168 # Géraud inherits from Hugues
 	}
 	1058.9.5 = {
 		holder = 240
@@ -1128,14 +1124,14 @@ c_saintonge = {
 	963.4.3 = {
 		holder = 232
 	}
-	994.2.3 = {
-		holder = 234
+	981.3.2 = {
+		holder = 900090 # Raymond receives Saintonge for aiding the king against rebellious vassals
 	}
-	1030.2.1 = {
-		holder = 228
+	1005.7.10 = {
+		holder = 900167 # Raoul inherits from Raymond
 	}
-	1039.3.10 = {
-		holder = 238
+	1035.10.12 = {
+		holder = 900174 # Thibault inherits from Raoul
 	}
 	1058.9.5 = {
 		holder = 240
@@ -1234,17 +1230,14 @@ c_aunis = {
 	963.4.3 = {
 		holder = 232	#Guillaume II (IV of Aquitaine)
 	}
-	994.2.3 = {
-		holder = 234	#Guillaume III (V of Aquitaine)
+	981.3.2 = {
+		holder = 900090 # Raymond receives Aunis for aiding the king against rebellious vassals
 	}
-	1030.1.1 = {
-		holder = 236 	#Guillaume IV (VI of Aquitaine)
+	1005.7.10 = {
+		holder = 900166 # Étienne inherits from Raymond
 	}
-	1038.2.1 = {
-		holder = 228	#Eudes of Aquitaine
-	}
-	1039.3.10 = {
-		holder = 238	#Guillaume V (VII of Aquitaine)
+	1030.2.9 = {
+		holder = 900172 # Louis inherits from Étienne
 	}
 	1058.9.5 = {
 		holder = 240	#Guillaume VI (VIII of Aquitaine)

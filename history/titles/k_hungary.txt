@@ -73,13 +73,13 @@
 		insert_title_history = k_magyar
 	}
 	1038.8.15 = {
-		holder = 497
+		holder = 468
 	}
 	1041.1.1 = {
 		holder = 20371
 	}
 	1044.7.1 = {
-		holder = 497
+		holder = 468
 	}
 	1046.1.1 = {
 		holder = 468
@@ -2094,7 +2094,7 @@ d_ungvar = {
 		liege = "k_hungary"
 	}
 	1038.8.15 = {
-		holder = 497
+		holder = 468
 	}
 	1046.1.1 = {
 		holder = 470
@@ -2600,7 +2600,7 @@ d_transcarpathia = {
 		liege = "k_hungary"
 	}
 	1038.8.15 = {
-		holder = 497
+		holder = 468
 	}
 	1046.1.1 = {
 		holder = 470

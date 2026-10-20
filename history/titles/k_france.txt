@@ -3051,25 +3051,29 @@ d_burgundy = {
 	#879.1.1 = {
 	#	holder = 90155 #Carloman
 	#}
-	#Bosonids
-	880.1.1 = {
-		holder = 7994 # Richard 'the Justicar'
-		liege = k_france
+	# Coarrazze male line
+	797.1.1 = {
+		holder = 900073 # Louis
 	}
-	921.1.1 = {
-		holder = 7995 # Raoul
+	828.2.20 = {
+		holder = 900074 # Marçau
 	}
-	923.1.1 = {
-		holder = 168167 # Hugh 'the Black'
+	860.11.28 = {
+		holder = 900079 # Jaufret
 	}
-	# Chalon
-	952.12.17 = {
-		holder = 40322 #Gilbert
+	895.10.14 = {
+		holder = 900081 # Bérenger
+	}
+	920.2.17 = {
+		holder = 900084 # Jaufret
+	}
+	950.5.19 = {
+		holder = 900089 # Jacques
+	}
+	960.8.9 = {
+		holder = 0
 	}
 	#Capetians
-	956.1.1 = {
-		holder = 91006 #Otton, son of Hugues the Great
-	}
 	965.1.1 = {
 		holder = 91007 #Henri I, the Great
 	}

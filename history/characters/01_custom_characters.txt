@@ -9,6 +9,7 @@
 	culture = norse
 	815.1.1 = { birth = yes }
 	860.6.19 = { death = yes }
+ # Věk: 45
 }
 
 900002 = {
@@ -42,6 +43,7 @@
 			killer = 163123
 		}
 	}
+ # Věk: 52
 }
 
 900003 = {
@@ -62,7 +64,7 @@
 	trait = education_martial_4
 
 	844.9.13 = { birth = yes give_nickname = nick_the_heathen }
-	900.3.27 = { death = yes } # Věk: 56
+	900.3.27 = { death = yes } # Věk: 55
 }
 
 900004 = {
@@ -99,7 +101,7 @@
 	trait = education_diplomacy_5
 
 	831.6.1 = { birth = yes give_nickname = nick_the_fox }
-	881.2.14 = { death = yes } # Věk: 38
+	881.2.14 = { death = yes } # Věk: 49
 }
 
 900006 = {
@@ -229,7 +231,7 @@
 	trait = diligent
 	trait = education_stewardship_3
 	896.7.25 = { birth = yes }
-	952.1.8 = { death = yes } # Věk: 45
+	952.1.8 = { death = yes } # Věk: 55
 }
 
 900019 = {
@@ -276,6 +278,7 @@
 	father = 900020
 	960.10.14 = { birth = yes }
 	1020.12.9 = { death = yes }
+ # Věk: 60
 }
 
 900111 = {
@@ -286,6 +289,7 @@
 	father = 900020
 	961.11.9 = { birth = yes }
 	1021.5.19 = { death = yes }
+ # Věk: 59
 }
 
 900112 = {
@@ -297,6 +301,7 @@
 	father = 900020
 	969.7.2 = { birth = yes }
 	1035.9.19 = { death = yes }
+ # Věk: 66
 }
 
 900113 = {
@@ -307,6 +312,7 @@
 	father = 900020
 	973.5.9 = { birth = yes }
 	1027.7.15 = { death = yes }
+ # Věk: 54
 }
 
 900114 = {
@@ -317,6 +323,7 @@
 	father = 900110
 	986.5.1 = { birth = yes }
 	1027.6.15 = { death = yes }
+ # Věk: 41
 }
 
 900115 = {
@@ -327,6 +334,7 @@
 	father = 900111
 	984.11.16 = { birth = yes }
 	1035.5.4 = { death = yes }
+ # Věk: 50
 }
 
 900116 = {
@@ -337,6 +345,7 @@
 	father = 900111
 	985.2.23 = { birth = yes }
 	1040.7.3 = { death = yes }
+ # Věk: 55
 }
 
 900117 = {
@@ -348,6 +357,7 @@
 	father = 900111
 	993.12.1 = { birth = yes }
 	1045.4.5 = { death = yes }
+ # Věk: 51
 }
 
 900118 = {
@@ -359,6 +369,7 @@
 	father = 900111
 	996.5.20 = { birth = yes }
 	1047.1.13 = { death = yes }
+ # Věk: 50
 }
 
 
@@ -464,7 +475,7 @@
 	921.6.23 = {
 		add_spouse = 900027
 	}
-	974.12.12 = { death = yes } # Věk: 71
+	974.12.12 = { death = yes } # Věk: 72
 }
 
 900027 = {
@@ -613,7 +624,7 @@
 	martial = 8
 	learning = 14
 	949.7.12 = { birth = yes }
-	979.2.28 = { death = yes } # Věk: 31
+	979.2.28 = { death = yes } # Věk: 29
 }
 
 900035 = {
@@ -695,6 +706,7 @@
 	trait = beauty_good_3
 	937.6.17 = { birth = yes }
 	981.3.17 = { death = yes }
+ # Věk: 43
 }
 
 900150 = {
@@ -785,6 +797,7 @@
 	learning = 9
 	978.1.1 = { birth = yes give_nickname = nick_the_passionate}
 	1037.5.14 = { death = yes }
+ # Věk: 59
 }
 
 900149 = {
@@ -805,6 +818,7 @@
 	learning = 7
 	1018.1.1 = { birth = yes give_nickname = nick_the_honorable}
 	1065.8.20 = { death = yes } 
+ # Věk: 47
 }
 
 900153 = {
@@ -880,6 +894,7 @@
 
 900097 = {
 	name = "Roger"
+	dna = 900097_roger
 	dynasty_house = house_montbeliard
 	religion = catholic
 	culture = norman
@@ -895,7 +910,7 @@
 	trait = education_martial_3
 	965.7.27 = { birth = yes }
 	998.7.17 = { add_spouse = 900163 }
-	1031.5.23 = { death = yes } # Věk: 66
+	1031.5.23 = { death = yes } # Věk: 65
 }
 
 900163 = {
@@ -913,7 +928,7 @@
 	trait = fecund
 	trait = Beauty_good_3
 	966.7.27 = { birth = yes }
-	1040.5.23 = { death = yes } # Věk: 74
+	1040.5.23 = { death = yes } # Věk: 73
 
 }
 
@@ -927,6 +942,7 @@
 	mother = 900162
 	967.6.17 = { birth = yes }
 	987.3.17 = { death = yes }
+ # Věk: 19
 }
 
 900099 = {
@@ -942,6 +958,7 @@
 		add_spouse = 1718
 	}
 	1037.5.1 = { death = yes }
+ # Věk: 60
 }
 
 
@@ -952,10 +969,11 @@
 	religion = catholic
 	culture = norman
 	father = 900034
-	mother = 900162
-	979.11.14 = { birth = yes }
+	mother = 900130
+	982.11.14 = { birth = yes }
 	994.9.17 = { add_spouse = 168538 }
 	1020.4.12 = { death = yes }
+ # Věk: 37
 }
 
 900101 = {
@@ -972,6 +990,7 @@
 			death_reason = death_murder
 		}
 	}
+ # Věk: 26
 }
 
 900102 = {
@@ -991,6 +1010,7 @@
 
 900103 = {
 	name = "Tancred"
+	dna = 900103_tancred
 	dynasty_house = house_montbeliard
 	religion = catholic
 	culture = norman
@@ -1002,6 +1022,7 @@
 	mother = 900163
 	1007.8.22 = { birth = yes }
 	1056.2.9 = { death = yes }
+ # Věk: 48
 }
 
 900104 = {
@@ -1019,6 +1040,7 @@
 	trait = scholar
 	1037.1.16 = { birth = yes }
 	1084.8.21 = { death = yes }
+ # Věk: 47
 }
 
 900143 = {
@@ -1040,6 +1062,7 @@
 	985.12.13 = { birth = yes }
 	1006.4.17 = { add_spouse = 302000 }
 	1051.2.12 = { death = { death_reason = death_battle } }
+ # Věk: 65
 }
 
 900159 = {
@@ -1050,6 +1073,7 @@
 	father = 900143
 	mother = 302000
 	1010.8.23 = { birth = yes }
+	1067.3.14 = { death = yes } # Věk: 56
 }
 
 900160 = {
@@ -1061,6 +1085,7 @@
 	father = 900143
 	mother = 302000
 	1016.2.11 = { birth = yes }
+	1074.9.6 = { death = yes } # Věk: 58
 }
 
 
@@ -1093,7 +1118,7 @@
 	898.3.15 = { birth = yes }
 	922.7.20 = {
 		death = {
-			death_reason = death_beheading
+			death_reason = death_decapitated
 		}
 	} # Věk: 24
 }
@@ -1135,6 +1160,7 @@
 	father = 900016
 	962.1.3 = { birth = yes }
 	1015.5.12 = { death = yes }
+ # Věk: 53
 }
 
 900106 = {
@@ -1146,6 +1172,7 @@
 	father = 900016
 	963.8.26 = { birth = yes }
 	1017.2.2 = { death = yes }
+ # Věk: 53
 }
 
 900107 = {
@@ -1157,6 +1184,7 @@
 	trait = legitimized_bastard
 	989.1.26 = { birth = yes }
 	1039.7.9 = { death = yes }
+ # Věk: 50
 }
 
 900108 = {
@@ -1168,6 +1196,7 @@
 	trait = bastard
 	994.6.30 = { birth = yes }
 	1050.10.3 = { death = yes }
+ # Věk: 56
 }
 
 900109 = {
@@ -1180,6 +1209,7 @@
 	trait = bastard
 	996.11.17 = { birth = yes }
 	1019.5.16 = { death = yes }
+ # Věk: 22
 }
 
 900164 = {
@@ -1190,11 +1220,9 @@
     female = yes
 
     father = 900107
-    trait = education_stewardship_3
-    trait = temperate
-    trait = honest
-    trait = patient
-
+    trait = education_stewardship_4
+	trait = shrewd
+	trait = arrogant
     diplomacy = 8
     martial = 5
     stewardship = 14
@@ -1221,6 +1249,7 @@
 	trait = sadistic
 	679.3.11 = { birth = yes }
 	738.11.2 = { death = yes }
+ # Věk: 59
 }
 
 900038 = {
@@ -1232,6 +1261,7 @@
 	trait = ambitious
 	707.5.19 = { birth = yes }
 	762.1.28 = { death = yes }
+ # Věk: 54
 }
 
 900039 = {
@@ -1243,6 +1273,7 @@
 	trait = honest
 	710.9.14 = { birth = yes }
 	768.4.12 = { death = yes }
+ # Věk: 57
 }
 
 900040 = {
@@ -1254,6 +1285,7 @@
 	father = 900037
 	714.2.22 = { birth = yes }
 	770.8.19 = { death = yes }
+ # Věk: 56
 }
 
 900041 = {
@@ -1265,6 +1297,7 @@
 	trait = just
 	735.6.10 = { birth = yes }
 	791.12.3 = { death = yes }
+ # Věk: 56
 }
 
 900042 = {
@@ -1276,6 +1309,7 @@
 	trait = brave
 	738.10.1 = { birth = yes }
 	784.3.15 = { death = { death_reason = death_battle } }
+ # Věk: 45
 }
 
 900043 = {
@@ -1287,6 +1321,7 @@
 	trait = patient
 	740.1.5 = { birth = yes }
 	798.5.20 = { death = yes }
+ # Věk: 58
 }
 
 900044 = {
@@ -1298,6 +1333,7 @@
 	father = 900039
 	743.7.12 = { birth = yes }
 	802.11.1 = { death = yes }
+ # Věk: 59
 }
 
 900045 = {
@@ -1309,6 +1345,7 @@
 	trait = diligent
 	765.4.18 = { birth = yes }
 	821.9.27 = { death = yes }
+ # Věk: 56
 }
 
 900046 = {
@@ -1320,6 +1357,7 @@
 	trait = shy
 	768.11.12 = { birth = yes }
 	813.2.14 = { death = yes }
+ # Věk: 44
 }
 
 900047 = {
@@ -1331,6 +1369,7 @@
 	trait = stubborn
 	771.1.25 = { birth = yes }
 	829.6.3 = { death = yes }
+ # Věk: 58
 }
 
 900048 = {
@@ -1346,6 +1385,7 @@
 	trait = contrite
 	798.8.14 = { birth = yes give_nickname = nick_the_peacemaker }
 	865.10.22 = { death = yes }
+ # Věk: 67
 }
 
 900049 = {
@@ -1357,6 +1397,7 @@
 	father = 900045
 	801.12.5 = { birth = yes }
 	859.4.11 = { death = yes }
+ # Věk: 57
 }
 
 900050 = {
@@ -1376,6 +1417,7 @@
 	trait = education_intrigue_4
 	844.10.22 = { birth = yes }
 	890.5.14 = { death = yes }
+ # Věk: 45
 }
 
 900051 = {
@@ -1388,6 +1430,7 @@
 	father = 900048
 	847.2.18 = { birth = yes }
 	888.11.29 = { death = yes }
+ # Věk: 41
 }
 
 900052 = {
@@ -1400,6 +1443,7 @@
 	father = 900048
 	851.7.5 = { birth = yes }
 	889.12.12 = { death = yes }
+ # Věk: 38
 }
 
 900053 = {
@@ -1412,6 +1456,7 @@
 	868.1.1 = { birth = yes }
 	887.8.1 = { add_spouse = 900054 }
 	925.8.15 = { death = yes }
+ # Věk: 57
 }
 
 900054 = {
@@ -1426,6 +1471,7 @@
 	trait = education_learning_4
 	870.5.10 = { birth = yes }
 	930.3.15 = { death = yes }
+ # Věk: 59
 }
 
 900055 = {
@@ -1437,6 +1483,7 @@
 	father = 900050
 	871.3.10 = { birth = yes }
 	920.5.12 = { death = yes }
+ # Věk: 49
 }
 
 900056 = {
@@ -1448,6 +1495,7 @@
 	father = 900050
 	873.8.22 = { birth = yes }
 	918.11.4 = { death = yes }
+ # Věk: 45
 }
 
 900057 = {
@@ -1465,6 +1513,7 @@
 	876.2.14 = { birth = yes give_nickname = nick_the_just }
 	886.8.30 = { add_spouse = occitan0132 }
 	932.9.30 = { death = yes }
+ # Věk: 56
 }
 
 900058 = {
@@ -1477,6 +1526,7 @@
 	mother = 900054
 	892.4.18 = { birth = yes }
 	945.7.19 = { death = yes }
+ # Věk: 53
 }
 
 900059 = {
@@ -1493,7 +1543,7 @@
 	trait = education_intrigue_5
 	trait = administrator
 	895.6.11 = { birth = yes }
-	970.9.9 = { death = yes } # Age: 75
+	970.9.9 = { death = yes } # Věk: 75
 }
 
 900060 = {
@@ -1509,6 +1559,7 @@
 	trait = education_martial_5
 	898.1.25 = { birth = yes }
 	969.9.21 = { death = { death_reason = death_battle } }
+ # Věk: 71
 }
 
 900061 = {
@@ -1522,6 +1573,7 @@
 	trait = journalled
 	901.9.8 = { birth = yes }
 	908.12.1 = { death = yes }
+ # Věk: 7
 }
 
 900062 = {
@@ -1537,6 +1589,7 @@
 	trait = education_martial_3
 	898.3.14 = { birth = yes }
 	955.8.20 = { death = { death_reason = death_battle } }
+ # Věk: 57
 }
 
 900063 = {
@@ -1548,6 +1601,7 @@
 	mother = occitan0132
 	900.7.22 = { birth = yes }
 	948.11.11 = { death = yes }
+ # Věk: 48
 }
 
 900064 = {
@@ -1575,8 +1629,8 @@
 	culture = sardinian
 	father = 900059
 	928.2.10 = { birth = yes }
-	933.5.5 = { add_spouse = 1306 }
 	989.3.4 = { death = yes }
+ # Věk: 61
 }
 
 900068 = {
@@ -1589,6 +1643,7 @@
 	father = 900059
 	932.11.3 = { birth = yes }
 	1000.7.9 = { death = yes }
+ # Věk: 67
 }
 
 900070 = {
@@ -1599,6 +1654,7 @@
 	father = 900059
 	941.6.25 = { birth = yes }
 	1020.12.11 = { death = yes }
+ # Věk: 79
 }
 
 900071 = {
@@ -1609,6 +1665,7 @@
 	father = 900060
 	935.3.8 = { birth = yes }
 	990.11.8 = { death = yes }
+ # Věk: 55
 }
 
 900072 = {
@@ -1620,6 +1677,7 @@
 	father = 900060
 	938.9.17 = { birth = yes }
 	1020.11.15 = { death = yes }
+ # Věk: 82
 }
 
 900119 = {
@@ -1630,7 +1688,7 @@
 	culture = sardinian
 	father = 900070
 	969.12.2 = { birth = yes }
-	1028.7.11 = { death = yes }
+	1028.7.11 = { death = yes } # Věk: 58
 }
 
 900120 = {
@@ -1640,7 +1698,7 @@
 	culture = sardinian
 	father = 900070
 	974.8.9 = { birth = yes }
-	1026.2.24 = { death = yes } # Věk: 52
+	1026.2.24 = { death = yes } # Věk: 51
 }
 
 900121 = {
@@ -1652,6 +1710,7 @@
 	father = 900070
 	979.1.16 = { birth = yes }
 	982.4.21 = { death = yes }
+ # Věk: 3
 }
 
 900122 = {
@@ -1665,6 +1724,7 @@
 		add_spouse = 900119
 	}
 	1025.9.11 = { death = yes }
+ # Věk: 65
 }
 
 900123 = {
@@ -1691,7 +1751,7 @@
 	1030.8.21 = {
 		add_spouse = 900141
 	}
-	1067.1.18 = { death = yes } # Věk: 57
+	1067.1.18 = { death = yes } # Věk: 56
 }
 
 900125 = {
@@ -1762,7 +1822,7 @@
 	trait = architect
 	trait = ambitious
 	960.1.5 = { birth = yes }
-	1047.6.2 = { death = yes } # Věk: 46
+	1047.6.2 = { death = yes } # Věk: 87
 }
 
 
@@ -1782,6 +1842,7 @@
 	961.6.8 = { birth = yes }
 	990.6.2 = { add_spouse = 54000 }
 	1033.7.13 = { death = yes }
+ # Věk: 72
 }
 
 900130 = {
@@ -1798,6 +1859,7 @@
 	trait = chaste
 	963.6.13 = { birth = yes }
 	1026.12.26 = { death = yes }
+ # Věk: 63
 }
 
 900131 = {
@@ -1810,6 +1872,7 @@
 	mother = 900161
 	977.8.7 = { birth = yes }
 	1003.11.10 = { death = yes }
+ # Věk: 26
 }
 
 900135 = {
@@ -1821,6 +1884,7 @@
 	mother = 900161
 	990.1.18 = { birth = yes }
 	1005.10.28 = { death = yes }
+ # Věk: 15
 }
 
 900136 = {
@@ -1833,6 +1897,7 @@
 	mother = 54000
 	991.6.2 = { birth = yes }
 	1031.2.1 = { death = yes }
+ # Věk: 39
 }
 
 900137 = {
@@ -1844,6 +1909,7 @@
 	mother = 900161
 	992.8.31 = { birth = yes }
 	993.11.15 = { death = yes }
+ # Věk: 1
 }
 
 900139 = {
@@ -1861,7 +1927,7 @@
 	trait = torturer
 	trait = aggressive_attacker
 	1001.10.2 = { birth = yes give_nickname = nick_the_great}
-	1054.4.18 = { death = yes } # Věk: 53
+	1054.4.18 = { death = yes } # Věk: 52
 }
 
 900140 = {
@@ -1897,7 +1963,7 @@
 	father = 900139
 	trait = bastard
 	1035.11.3 = { birth = yes }
-	1077.7.15 = { death = yes } # Věk: 42
+	1077.7.15 = { death = yes } # Věk: 41
 }
 
 
@@ -1918,6 +1984,7 @@
 
 	767.8.16 = { birth = yes }
 	828.2.20 = { death = yes }
+ # Věk: 60
 }
 
 900074 = {
@@ -1934,6 +2001,7 @@
 
 	800.3.14 = { birth = yes }
 	860.11.28 = { death = yes }
+ # Věk: 60
 }
 
 900075 = {
@@ -1952,6 +2020,7 @@
 
 	802.7.09 = { birth = yes }
 	855.04.18 = { death = yes }
+ # Věk: 52
 }
 
 900076 = {
@@ -1970,6 +2039,7 @@
 
 	789.12.01 = { birth = yes }
 	862.08.22 = { death = yes }
+ # Věk: 72
 }
 
 900077 = {
@@ -1990,6 +2060,7 @@
 			death_reason = death_mysterious
 		}
 	}
+ # Věk: 34
 }
 
 900078 = {
@@ -2006,6 +2077,7 @@
 
 	838.09.11 = { birth = yes }
 	890.03.30 = { death = yes }
+ # Věk: 51
 }
 
 900079 = {
@@ -2024,6 +2096,7 @@
 
 	840.01.25 = { birth = yes give_nickname = nick_the_cruel }
 	895.10.14 = { death = yes }
+ # Věk: 55
 }
 
 900080 = {
@@ -2043,9 +2116,10 @@
 	870.7.9 = {
 		death = {
 			death_reason = death_execution
-			killer = 900072
+			killer = 900079
 		}
 	}
+ # Věk: 25
 }
 
 900081 = {
@@ -2063,6 +2137,7 @@
 
 	865.06.04 = { birth = yes give_nickname = nick_the_terrible }
 	920.02.17 = { death = yes }
+ # Věk: 54
 }
 
 900082 = {
@@ -2079,6 +2154,7 @@
 
 	868.10.19 = { birth = yes give_nickname = nick_the_wolf }
 	925.08.05 = { death = yes }
+ # Věk: 56
 }
 
 900083 = {
@@ -2095,6 +2171,7 @@
 
 	890.04.12 = { birth = yes }
 	945.12.03 = { death = yes }
+ # Věk: 55
 }
 
 900084 = {
@@ -2111,6 +2188,7 @@
 
 	892.08.27 = { birth = yes }
 	950.05.19 = { death = yes }
+ # Věk: 57
 }
 
 900085 = {
@@ -2127,6 +2205,7 @@
 
 	893.05.30 = { birth = yes }
 	948.01.11 = { death = yes }
+ # Věk: 54
 }
 
 900086 = {
@@ -2142,6 +2221,7 @@
 
 	895.09.03 = { birth = yes }
 	952.06.24 = { death = yes }
+ # Věk: 56
 }
 
 900087 = {
@@ -2157,6 +2237,7 @@
 
 	897.03.17 = { birth = yes }
 	950.10.29 = { death = yes }
+ # Věk: 53
 }
 
 900088 = {
@@ -2172,6 +2253,7 @@
 
 	900.07.22 = { birth = yes }
 	958.04.02 = { death = yes }
+ # Věk: 57
 }
 
 900089 = {
@@ -2187,11 +2269,12 @@
 
 	903.12.14 = { birth = yes }
 	960.08.09 = { death = yes }
+ # Věk: 56
 }
 
 900090 = {
 	name = "Raymond"
-	dynasty = 90001
+	dynasty = 90004
 	religion = catholic
 	culture = french
 	father = 900089
@@ -2200,11 +2283,210 @@
 	trait = fickle
 	trait = shrewd
 	trait = athletic
-	trait = legitimized_bastard
+	trait = bastard_founder
 	trait = education_learning_5
 
 	939.03.02 = { birth = yes }
-	970.11.18 = { death = yes }
+	1005.07.10 = { death = yes }
+ # Věk: 66
+}
+
+900165 = {
+	name = "Hugues"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	father = 900090
+
+	960.07.11 = { birth = yes }
+	1025.04.07 = { death = yes }
+ # Věk: 64
+}
+
+900166 = {
+	name = "Étienne"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	father = 900090
+
+	963.09.14 = { birth = yes }
+	1030.02.09 = { death = yes }
+ # Věk: 66
+}
+
+900167 = {
+	name = "Raoul"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	father = 900090
+
+	966.02.08 = { birth = yes }
+	1035.10.12 = { death = yes }
+ # Věk: 69
+}
+
+900168 = {
+	name = "Géraud"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	father = 900165
+
+	984.01.12 = { birth = yes }
+	1047.03.02 = { death = yes }
+ # Věk: 63
+}
+
+900169 = {
+	name = "Alix"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	female = yes
+	father = 900165
+
+	987.08.05 = { birth = yes }
+	1050.10.03 = { death = yes }
+ # Věk: 63
+}
+
+900170 = {
+	name = "Bérenger"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	father = 900165
+
+	991.03.20 = { birth = yes }
+	1058.05.10 = { death = yes }
+ # Věk: 67
+}
+
+900171 = {
+	name = "Aude"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	female = yes
+	father = 900165
+
+	994.11.06 = { birth = yes }
+	1053.01.09 = { death = yes }
+ # Věk: 58
+}
+
+900172 = {
+	name = "Louis"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	father = 900166
+
+	987.04.08 = { birth = yes }
+	1050.02.04 = { death = yes }
+ # Věk: 62
+}
+
+900173 = {
+	name = "Éléonore"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	female = yes
+	father = 900166
+
+	991.10.10 = { birth = yes }
+	1060.04.02 = { death = yes }
+ # Věk: 68
+}
+
+900174 = {
+	name = "Thibault"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	father = 900167
+
+	988.12.01 = { birth = yes }
+	1048.05.05 = { death = yes }
+ # Věk: 59
+}
+
+900175 = {
+	name = "Ermengarde"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	female = yes
+	father = 900167
+
+	991.05.15 = { birth = yes }
+	1056.05.01 = { death = yes }
+ # Věk: 64
+}
+
+900176 = {
+	name = "Arnaud"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	father = 900167
+
+	994.08.19 = { birth = yes }
+	1054.11.09 = { death = yes }
+ # Věk: 60
+}
+
+900177 = {
+	name = "Richilde"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	female = yes
+	father = 900167
+
+	997.02.04 = { birth = yes }
+	1065.08.12 = { death = yes }
+ # Věk: 68
+}
+
+900178 = {
+	name = "Bernard"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	father = 900167
+
+	1000.10.20 = { birth = yes }
+	1060.01.04 = { death = yes }
+ # Věk: 59
+}
+
+900179 = {
+	name = "Béatrice"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	female = yes
+	father = 900167
+
+	1003.04.11 = { birth = yes }
+	1071.06.02 = { death = yes }
+ # Věk: 68
+}
+
+900180 = {
+	name = "Géraud"
+	dynasty = 90004
+	religion = catholic
+	culture = french
+	father = 900167
+
+	1006.09.07 = { birth = yes }
+	1064.12.03 = { death = yes }
+ # Věk: 58
 }
 
 900091 = {
@@ -2220,6 +2502,7 @@
 
 	915.06.18 = { birth = yes }
 	970.02.26 = { death = yes }
+ # Věk: 54
 }
 
 
@@ -2294,9 +2577,9 @@
 	912.2.10 = {
 		birth = yes
 	}
-	968.9.22 = {
+	983.4.16 = {
 		death = yes
-	} # Věk: 56
+	} # Věk: 71
 }
 
 900095 = {
@@ -2315,9 +2598,9 @@
 	914.6.25 = {
 		birth = yes
 	}
-	971.1.18 = {
+	974.8.1 = {
 		death = yes
-	} # Věk: 56
+	} # Věk: 60
 }
 
 
@@ -2334,11 +2617,237 @@
 	culture = swabian
 	trait = bastard
 	trait = deceitful
+	trait = brave
+	trait = loyal
+	trait = education_martial_2
+	trait = rakish
 	father = 900092
 	910.5.18 = {
 		birth = yes
 	}
-	985.7.12 = {
+	976.6.18 = {
 		death = { death_reason = death_battle }
-	} # Věk: 62
+	} # Věk: 66
+}
+
+900181 = {
+	name = "Hugo"
+	dynasty_house = house_cisio
+	religion = catholic
+	culture = swabian
+	father = 900094
+	983.5.6 = { birth = yes }
+	1050.8.20 = { death = yes } # Věk: 67
+}
+
+900182 = {
+	name = "Hugo"
+	dynasty_house = house_cisio
+	religion = catholic
+	culture = swabian
+	father = 900181
+	1013.8.1 = { birth = yes }
+	1068.7.4 = { death = yes } # Věk: 54
+}
+
+900183 = {
+	name = "Konrad"
+	dynasty_house = house_memmingen
+	religion = catholic
+	culture = swabian
+	father = 900096
+	961.10.6 = { birth = yes }
+	1019.7.10 = { death = yes } # Věk: 57
+}
+
+900184 = {
+	name = "Otto"
+	dynasty_house = house_memmingen
+	religion = catholic
+	culture = swabian
+	father = 900096
+	964.4.11 = { birth = yes }
+	966.4.16 = { death = yes } # Věk: 2
+}
+
+900185 = {
+	name = "Ekkehard"
+	dynasty_house = house_memmingen
+	religion = catholic
+	culture = swabian
+	father = 900096
+	966.5.31 = { birth = yes }
+	1034.8.28 = { death = yes } # Věk: 68
+}
+
+900186 = {
+	name = "Adelheid"
+	dynasty_house = house_memmingen
+	female = yes
+	religion = catholic
+	culture = swabian
+	father = 900096
+	969.9.13 = { birth = yes }
+	1031.3.10 = { death = yes } # Věk: 61
+}
+
+900187 = {
+	name = "Garibald"
+	dynasty_house = house_memmingen
+	religion = catholic
+	culture = swabian
+	father = 900096
+	971.1.6 = { birth = yes }
+	1028.4.10 = { death = yes } # Věk: 57
+}
+
+900188 = {
+	name = "Liutpold"
+	dynasty_house = house_memmingen
+	religion = catholic
+	culture = swabian
+	father = 900096
+	974.4.21 = { birth = yes }
+	999.7.21 = { death = yes } # Věk: 25
+}
+
+900189 = {
+	name = "Ulrich"
+	dynasty_house = house_memmingen
+	religion = catholic
+	culture = swabian
+	father = 900096
+	975.9.13 = { birth = yes }
+	1025.10.20 = { death = yes } # Věk: 50
+}
+
+900190 = {
+	name = "Hedwig"
+	dynasty_house = house_memmingen
+	female = yes
+	religion = catholic
+	culture = swabian
+	father = 900185
+	984.10.15 = { birth = yes }
+	1055.6.4 = { death = yes } # Věk: 70
+}
+
+900191 = {
+	name = "Mechthild"
+	dynasty_house = house_memmingen
+	female = yes
+	religion = catholic
+	culture = swabian
+	father = 900185
+	992.12.4 = { birth = yes }
+	1060.8.20 = { death = yes } # Věk: 67
+}
+
+900192 = {
+	name = "Liutbrand"
+	dynasty_house = house_memmingen
+	religion = catholic
+	culture = swabian
+	father = 900185
+	996.12.14 = { birth = yes }
+	1052.2.2 = { death = yes } # Věk: 55
+}
+
+900193 = {
+	name = "Manfred"
+	dynasty_house = house_memmingen
+	religion = catholic
+	culture = swabian
+	father = 900185
+	1000.3.29 = { birth = yes }
+	1058.11.14 = { death = yes } # Věk: 58
+}
+
+900194 = {
+	name = "Heinrich"
+	dynasty_house = house_memmingen
+	religion = catholic
+	culture = swabian
+	father = 900185
+	trait = education_martial_4
+	trait = vengeful
+	trait = stubborn
+	trait = brave
+	trait = strong
+	trait = loyal
+	1005.5.3 = { birth = yes }
+	1054.9.6 = { death = yes } # Věk: 49
+}
+
+900195 = {
+	name = "Irmeltrud"
+	dynasty_house = house_memmingen
+	female = yes
+	religion = catholic
+	culture = swabian
+	father = 900187
+	1005.8.14 = { birth = yes }
+	1053.6.13 = { death = yes } # Věk: 47
+}
+
+900196 = {
+	name = "Jutta"
+	dynasty_house = house_memmingen
+	female = yes
+	religion = catholic
+	culture = swabian
+	father = 900187
+	1007.1.6 = { birth = yes }
+	1061.3.20 = { death = yes } # Věk: 54
+}
+
+900197 = {
+	name = "Ida"
+	dynasty_house = house_memmingen
+	female = yes
+	religion = catholic
+	culture = swabian
+	father = 900187
+	1011.12.12 = { birth = yes }
+	1068.4.15 = { death = yes } # Věk: 56
+}
+
+900198 = {
+	name = "Ulrich"
+	dna = 900198_ulrich
+	dynasty_house = house_memmingen
+	religion = catholic
+	culture = swabian
+	trait = ambitious
+	trait = gregarious
+	trait = diligent
+	trait = irritable
+	trait = adulterer
+	trait = administrator
+	trait = education_stewardship_5
+	father = 900188
+	998.5.15 = { birth = yes }
+	1051.9.8 = { death = yes } # Věk: 53
+}
+
+900199 = {
+	name = "Irmgard"
+	dynasty_house = house_memmingen
+	female = yes
+	religion = catholic
+	culture = swabian
+	father = 900198
+	1018.7.14 = { birth = yes }
+	1070.2.1 = { death = yes } # Věk: 51
+}
+
+900200 = {
+	name = "Osterhild"
+	dynasty_house = house_memmingen
+	female = yes
+	religion = catholic
+	culture = swabian
+	father = 900198
+	1023.9.17 = { birth = yes }
+	1074.10.19 = { death = yes } # Věk: 51
 }
