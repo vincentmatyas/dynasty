@@ -300,7 +300,7 @@ c_sacz = {
 		liege="k_poland"
 	}
 	1033.1.1={
-		holder = 82265
+		holder = 760
 	}
 	1061.1.1={
 		government = theocracy_government
@@ -1098,6 +1098,9 @@ d_mazovia = {
 		holder = 0
 		liege = 0
 	}
+	1036.8.12 = {
+		holder = 760
+	}
 	1173.1.1 = {
 		holder = 125975 # Leszek, Duke of Masovia
 		liege = "k_poland"
@@ -1118,6 +1121,9 @@ c_plocka = {
 	#}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	1036.8.12 = {
+		holder = 760
 	}
 	
 	###After Kazimierz I's death
@@ -1160,6 +1166,9 @@ c_czerska = {
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
+	1036.8.12 = {
+		holder = 760
+	}
 	
 	###After Kazimierz I's death
 	1058.11.28 = {
@@ -1196,6 +1205,9 @@ c_gostyninska = {
 	#}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	1036.8.12 = {
+		holder = 760
 	}
 	
 	###After Kazimierz I's death
@@ -1234,6 +1246,9 @@ c_lomzynska = {
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
+	1036.8.12 = {
+		holder = 760
+	}
 	
 	###After Kazimierz I's death
 	1058.11.28 = {
@@ -1270,6 +1285,9 @@ c_zakroczymska = {
 	#}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	1036.8.12 = {
+		holder = 760
 	}
 	
 	###After Kazimierz I's death
@@ -1582,7 +1600,7 @@ c_nysa = {
 		holder = 82319
 	}
 	1020.1.1 = {
-		holder = 82320
+		holder = 82312
 	}
 	1050.1.1 = {
 		holder = 82321
@@ -2461,12 +2479,9 @@ c_legnica = {
 
 
 d_kuyavia = {
-	###Proto-Polish tribes
-	500.1.1 = {
-		holder = 0
-		liege = 0
+	1037.5.14 = {
+		holder = 760
 	}
-	
 	###Kazimierz I's succession
 	1058.11.28 = {
 		holder = 764	#Wladyslaw I Herman
@@ -2513,6 +2528,9 @@ c_kujawy = {
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
+	1037.5.14 = {
+		holder = 760
+	}
 	
 	###Kazimierz I's succession
 	1058.11.28 = {
@@ -2546,6 +2564,9 @@ c_dobrzynska = {
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
+	1037.5.14 = {
+		holder = 760
+	}
 	
 	###Kazimierz I's succession
 	1058.11.28 = {
@@ -2575,6 +2596,9 @@ c_leczycka = {
 	#}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	1037.5.14 = {
+		holder = 760
 	}
 	
 	###Kazimierz I's succession
@@ -2610,6 +2634,9 @@ c_sieradzka = {
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
+	1037.5.14 = {
+		holder = 760
+	}
 	
 	###Kazimierz I's succession
 	1058.11.28 = {
@@ -2643,6 +2670,9 @@ c_wielunska = {
 	#}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	1037.5.14 = {
+		holder = 760
 	}
 	
 	###Kazimierz I's succession

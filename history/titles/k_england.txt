@@ -51,10 +51,10 @@ k_england = {
 	1035.11.13 = {
 		holder = 101513 # Harold Harefoot
 	}
-	1040.3.17 = {
+	1038.1.1 = {
 		holder = 101511 # Harthacnut
 	}
-	1042.6.9 = {
+	1040.1.1 = {
 		holder = 114 # Eadward the Confessor
 	}
 	1066.1.5 = {
@@ -111,8 +111,8 @@ d_bedford = {
 	825.1.1 = {
 		holder = 0
 	}
-	1039.7.9 = {
-		holder = 122
+	1040.1.1 = {
+		holder = 114
 	}
 	1066.1.1 = {
 		liege = "k_england"
@@ -194,10 +194,10 @@ c_middlesex = {
 	1035.11.13 = {
 		holder = 101513 # Harold Harefoot
 	}
-	1040.3.17 = {
+	1038.1.1 = {
 		holder = 101511 # Harthacnut
 	}
-	1042.6.9 = {
+	1040.1.1 = {
 		holder = 114 # Eadward the Confessor
 	}
 	1066.1.5 = {
@@ -255,8 +255,8 @@ c_essex = {
 		liege = "k_england"
 		holder = 33358
 	}
-	1039.7.9 = {
-		holder = 122
+	1040.1.1 = {
+		holder = 114
 	}
 	1066.1.1 = {
 		liege = "d_norfolk"
@@ -329,8 +329,8 @@ c_bedford = {
 	852.1.1 = {
 		holder = 163102
 	}
-	1039.7.9 = {
-		holder = 122
+	1040.1.1 = {
+		holder = 114
 	}
 	1066.1.1 = {
 		liege = "k_england"
@@ -448,10 +448,10 @@ c_hertfordshire = {
 	1035.11.13 = {
 		holder = 101513 # Harold Harefoot
 	}
-	1040.3.17 = {
+	1038.1.1 = {
 		holder = 101511 # Harthacnut
 	}
-	1042.6.9 = {
+	1040.1.1 = {
 		holder = 114 # Eadward the Confessor
 	}
 	1066.1.1 = {
@@ -563,10 +563,10 @@ c_buckinghamshire = {
 	1035.11.13 = {
 		holder = 101513 # Harold Harefoot
 	}
-	1040.3.17 = {
+	1038.1.1 = {
 		holder = 101511 # Harthacnut
 	}
-	1042.6.9 = {
+	1040.1.1 = {
 		holder = 114 # Eadward the Confessor
 	}
 	1066.1.1 = {
