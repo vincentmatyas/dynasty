@@ -1139,6 +1139,7 @@
 
 900016 = {
 	name = "Eberhard"
+	dna = 900016_eberhard
 	dynasty_house = house_mercier
 	religion = catholic
 	culture = anglo_saxon
@@ -1662,6 +1663,7 @@
 	dynasty = 90006
 	religion = orthodox
 	culture = sardinian
+	trait = leper
 	father = 900060
 	935.3.8 = { birth = yes }
 	990.11.8 = { death = yes }
