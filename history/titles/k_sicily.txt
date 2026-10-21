@@ -2243,7 +2243,7 @@ c_apulia = {
 	1178.1.1 = { change_development_level = 15 }
 	
 	762.1.1 = {
-		liege = d_benevento
+		liege = 0
 	}
 	762.1.1 = {
 		holder = 190310 # Paldo
@@ -2265,6 +2265,9 @@ c_apulia = {
 	}
 	853.12.1 = {
 		holder = 163071 # Adelchis of Benevento
+	}
+	1038.1.1 = {
+		holder = 1122 # William I de Hauteville 'Iron Arm'
 	}
 	1042.1.1 = {
 		liege = d_apulia
@@ -2363,6 +2366,10 @@ c_bari = {
 	857.1.1 = {
 		liege = d_apulia
 		holder = 163094 # Sawdan, Emir of Bari
+	}
+	1040.1.1 = {
+		liege = 0
+		holder = 1124
 	}
 	1054.1.1 = {
 		holder = 171155 # Geoffroy de Conversano
